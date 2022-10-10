@@ -1,0 +1,317 @@
+/*==============================================
+    Erstelle die Website nach den vorgegebenen Designs. Die Website sollte Responsive sein und sich an verschiedene Geräte-Viewports anpassen.
+
+    Das Design beinhaltet ein Layout für vier Bildschirmgrößen.
+
+    Bis 600 px: Small
+    601 px - 900 px: Medium
+    901 px - 1200 px: Large
+    Alles größer als 1201 px: Extra Large
+
+
+    - Hinweise -
+
+    Erstelle die Website nach den vorgegebenen Designs. Die Website sollte Responsive sein und sich an verschiedene Geräte-Viewports anpassen.
+
+    Das Design beinhaltet ein Layout für vier Bildschirmgrößen.
+
+================================================*/
+
+
+
+
+html {
+    font-size: 10px;
+}
+
+
+body {
+
+    /* width: 1920px;
+    height: 1080px; */
+    /* background-color: aqua; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: nunito;
+    src: url("../fonts/Nunito-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: rock;
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+
+/*========================
+        - Header -
+==========================*/
+
+header {
+
+    position: relative;
+    
+}
+
+img {
+
+    width: 100vw;
+    
+    
+}
+
+.chomp {
+
+    /* display: flex;
+    justify-content: center; */
+    font-family: rock;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+
+}
+
+.lieferando {
+
+    display: flex;
+    justify-content: right;
+    color: #DF8380;
+    font-family: nunito;
+    font-size: 3vw;
+    font-weight: bolder;
+    position: absolute;
+    right: 3%;
+    top: 15%;
+
+}
+
+
+
+/*========================
+        - Main -
+==========================*/
+
+.howitworks {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+    width: 100%;
+    height: 8vh;
+    background-color: #DF8380;
+    color: #ffffff;
+}
+
+.works {
+
+    
+    
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+
+.list {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.unordered {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 65vw;
+
+
+
+}
+
+.list ul li {
+
+    list-style: none;
+}
+
+
+.list ul li p {
+
+    font-size: 3vw;
+    font-family: nunito;
+    font-weight: bolder;
+}
+
+
+span {
+
+    display: flex;
+    justify-content: center;
+    font-size: 9vw;
+    font-family: nunito;
+    color: #DF8380;
+    font-weight: bolder;
+    
+    
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: nunito;
+    width: 100%;
+    height: 8vh;
+    background-color: #DF8380;
+    color: #ffffff;
+}
+
+.teller {
+
+    font-size: 2.5vw;
+    font-weight: 900;
+}
+
+.cookies {
+
+
+
+}
+
+.hund {
+    
+    width: 100%;
+    height: 16vh;
+
+}
+
+.dish {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.bowl {
+
+    width: 40%;
+}
+
+
+.description {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+article.description p {
+
+    font-size: 3.5vw;
+    font-family: nunito;
+    font-weight: bolder;
+}
+
+
+section.food p {
+
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    height: 8vh;
+    
+}
+
+section.food p {
+    font-size: 3.5vw;
+    font-family: nunito;
+    width: 80vw;
+    margin-left: 8vw;
+}
+
+
+/*========================
+        - Footer -
+==========================*/
+
+
+
+footer.signup {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    
+
+}
+
+footer p {
+
+    font-size: 3.5vw;
+    font-family: nunito;
+    color: #ffffff;
+}
+
+form input {
+
+    border: 1px solid black;
+    border-radius: 20vw;;
+    text-align: center;
+    width: 90vw;
+    height: 5vh;
+    margin-left: 4vw;
+
+}
+
+.socialmedia {
+
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    gap: 50px;
+    margin-top: 5rem;
+
+}
+
+.socialmedia img {
+
+    width: 60px;
+    height: 60px;
+}
+
+.newsletter {
+
+    background-color: #DF8380;
+    margin-top: 2rem;
+}
+
+.newsletter:hover {
+
+    color: white;
+    
+
+}
+
